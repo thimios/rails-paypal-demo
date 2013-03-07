@@ -16,7 +16,7 @@ set :application, 'paypademo'
 
 # the repo where your code is hosted
 set :scm, :git
-set :repository, 'https://thimios@bitbucket.org/thimios/gigflip-paypal-demo.git'
+set :repository, 'git@bitbucket.org:thimios/gigflip-paypal-demo.git'
 
 # optional stuff from here
 
