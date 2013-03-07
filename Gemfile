@@ -39,4 +39,3 @@ gem 'jquery-rails'
 
 gem 'uberspacify'
 
-gem 'tilt', '~> 1.3.4'
