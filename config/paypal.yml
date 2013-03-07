@@ -1,0 +1,26 @@
+
+# sandbox.paypal.com
+# thimios@wantedpixel.com
+# dimo5217
+
+# seller:
+# seller_1362595784_biz@wantedpixel.com
+# dimo5217
+
+# buyer
+# buyer_1362595302_pre@wantedpixel.com
+# dimo5217
+
+paypal:
+  credentials:
+    username: "seller_1362595784_biz_api2.wantedpixel.com"
+    password: "MA45LU3HYQ6P2JB3"
+    signature: "Ae4lJIbsf6r8MTx6Bv-kfvA7jjkoA6aLN0XG00oyq3LAoBcfkfMgJo3K"
+    receiver_email: "seller_1362595784_biz@wantedpixel.com"
+  routes:
+    endpoint: "https://api-3t.sandbox.paypal.com/nvp"
+    redirect: "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout"
+    validate: "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_notify-validate"
+    return_url: "http://wantedpixel.com/order/confirm"
+    notify_url: "http://wantedpixel.com/ipn"
+    cancel_url: "http://wantedpixel.com/order/cancel"

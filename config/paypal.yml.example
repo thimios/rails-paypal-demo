@@ -1,0 +1,13 @@
+paypal:
+  credentials:
+    username: ""
+    password: ""
+    signature: ""
+    receiver_email: ""
+  routes:
+    endpoint: "https://api-3t.sandbox.paypal.com/nvp"
+    redirect: "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout"
+    validate: "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_notify-validate"
+    return_url: "http://urbanvention.com/order/confirm"
+    notify_url: "http://urbanvention.com/ipn"
+    cancel_url: "http://urbanvention.com/order/cancel"

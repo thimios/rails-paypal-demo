@@ -1,7 +1,18 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+$stdout.sync = true
+
+##################################
+# Import countries
+##################################
+if Ticket.any?
+  puts "Skipping ticket import. There are already tickets in the database."
+else
+  print "Importing tickets"
+  tickets_file = File.open(Rails.root.join("import", "tickets.yml"))
+  tickets = YAML.load(tickets_file)
+  tickets.each do |t|
+    t.symbolize_keys!
+    Ticket.create(t)
+    print "."
+  end
+  puts "done"
+end

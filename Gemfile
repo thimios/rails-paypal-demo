@@ -37,5 +37,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+# Deploy on uberspace.de
 gem 'uberspacify'
+
+gem 'state_machine'
+# gem 'ruby-graphviz', :require => 'graphviz' # Optional: only required for graphing
+
 
