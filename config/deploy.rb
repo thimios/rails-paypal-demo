@@ -33,5 +33,5 @@ set :domain, 'paypaldemo.wantedpixel.com'
 # By default, Ruby Enterprise Edition 1.8.7 is used for Uberspace. If you
 # prefer Ruby 1.9 or any other version, please refer to the RVM documentation
 # at https://rvm.io/integration/capistrano/ and set this variable.
-set :rvm_ruby_string, 'rvm 1.9.3@gigflip-paypal-demo'
+set :rvm_ruby_string, '1.9.3@gigflip-paypal-demo'
 
