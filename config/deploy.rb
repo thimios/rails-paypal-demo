@@ -22,7 +22,7 @@ set :repository, 'git@bitbucket.org:thimios/gigflip-paypal-demo.git'
 
 # By default, your app will be available in the root of your Uberspace. If you
 # have your own domain set up, you can configure it here
-set :domain, 'paypaldemo.wantedpixel.com'
+set :domain, 'demo1.wantedpixel.com'
 
 # By default, uberspacify will generate a random port number for Passenger to
 # listen on. This is fine, since only Apache will use it. Your app will always
