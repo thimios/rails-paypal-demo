@@ -38,3 +38,5 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'uberspacify'
+
+gem 'tilt', '~> 1.3.3'
