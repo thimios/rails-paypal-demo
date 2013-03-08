@@ -1,7 +1,7 @@
 class Order < ActiveRecord::Base
 
   # Mass-assignment protection
-  attr_accessible :amount, :currency, :token
+  attr_accessible :amount, :currency, :token, :payer_id, :address, :city, :country, :email, :first_name, :last_name, :postal_code, :state, :terms_and_conditions
 
   # Virtual attributes
   attr_accessor :check_shipping_address
