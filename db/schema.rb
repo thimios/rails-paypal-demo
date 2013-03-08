@@ -66,7 +66,7 @@ ActiveRecord::Schema.define(:version => 20130308154910) do
 
   create_table "tickets", :force => true do |t|
     t.string   "name"
-    t.decimal  "unit_price"
+    t.float    "unit_price"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
