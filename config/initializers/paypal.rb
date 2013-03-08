@@ -3,7 +3,7 @@ raise 'No Paypal API config specified. Please create /config/paypal.yml!' unless
 
 # Read config
 config_file = File.read("#{Rails.root}/config/paypal.yml")
-PAYPAL      = YAML.load(config_file)["paypal"].deep_symbolize_keys
+PAYPAL      = YAML.load(config_file)[Rails.env]["paypal"].deep_symbolize_keys
 
 
 # Configure Koala and Twitter Gems

@@ -56,6 +56,7 @@ class OrdersController < ApplicationController
   end
 
   def ipn
+    Rails.logger.info "ipn received"
     # Validate ipn request
     code = Paypal.validate_ipn(params)
 
