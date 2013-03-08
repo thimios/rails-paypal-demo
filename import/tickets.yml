@@ -1,5 +1,3 @@
 ---
 - name: Event one
-  unit_price: 50.5
-- name: Event two
-  unit_price: 35.4
+  unit_price: 0.01
