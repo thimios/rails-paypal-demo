@@ -48,3 +48,4 @@ gem 'state_machine'
 # Password: password
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
+gem 'country-select'
