@@ -43,4 +43,8 @@ gem 'uberspacify'
 gem 'state_machine'
 # gem 'ruby-graphviz', :require => 'graphviz' # Optional: only required for graphing
 
-
+# activeadmin
+# User: admin@example.com
+# Password: password
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
