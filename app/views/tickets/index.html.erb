@@ -15,13 +15,7 @@
     <td><%= ticket.unit_price %></td>
     <td><%= link_to 'Order', place_order_path(ticket), method: :post %></td>
 
-    <td><%= link_to 'Show', ticket %></td>
-    <td><%= link_to 'Edit', edit_ticket_path(ticket) %></td>
-    <td><%= link_to 'Destroy', ticket, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
 <% end %>
 </table>
 
-<br />
 
-<%= link_to 'New Ticket', new_ticket_path %>
