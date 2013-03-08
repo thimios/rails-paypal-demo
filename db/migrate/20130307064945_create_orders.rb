@@ -12,7 +12,6 @@ class CreateOrders < ActiveRecord::Migration
       t.float  :amount
       t.string :token
       t.string :payer_id
-      t.boolean :terms_and_conditions
 
       t.string :state
 

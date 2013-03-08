@@ -41,7 +41,7 @@ class OrdersController < ApplicationController
       # Finish transaction
       Paypal.do_express_checkout_payment(@order.token, @order.payer_id, @order.amount_as_string, @order.currency.to_sym)
 
-      redirect_to thank_you_path
+      redirect_to root_path, :notice => "Thank you for your payment, you will get all information by email"
     else
       render :confirm
     end

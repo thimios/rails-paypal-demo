@@ -8,7 +8,7 @@ Paypaldemo::Application.routes.draw do
   post '/order/:id',  :controller => 'orders', :action => :create, :as => :place_order  # Place an order
   get  '/order/confirm',    :controller => 'orders', :action => :confirm                # Order confirmation (return_url)
   get  '/order/cancel',     :controller => 'orders', :action => :cancel                 # Order cancelled (cancel_url)
-  put  '/order/:token',     :controller => 'orders', :action => :update, :as => :order  # Action performed on confirm page
+  put  '/order/:id',     :controller => 'orders', :action => :update, :as => :order  # Action performed on confirm page
   post '/ipn',              :controller => 'orders', :action => :ipn                    # Instant payment notification
 
   # Root path

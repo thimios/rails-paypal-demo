@@ -1,10 +1,10 @@
 class Order < ActiveRecord::Base
 
   # Mass-assignment protection
-  attr_accessible :amount, :currency, :token, :payer_id, :address, :city, :country, :email, :first_name, :last_name, :postal_code, :state, :terms_and_conditions, :province
+  attr_accessible :amount, :currency, :token, :payer_id, :address, :city, :country, :email, :first_name, :last_name, :postal_code, :state, :province, :terms_and_conditions
 
   # Virtual attributes
-  attr_accessor :check_shipping_address
+  attr_accessor :check_shipping_address, :terms_and_conditions
 
   # Validations
   validates :first_name,            :presence => true,    :if => :check_shipping_address?

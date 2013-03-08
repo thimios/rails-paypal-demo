@@ -1,14 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h2>The payment is confirmed! You will also receive an email with all information. Thank you!</h2>
-<p>
-  <b>Firstname:</b>
-  <%= @order.first_name %>
-</p>
+<h2>Please confirm / update your payment details</h2>
 
-<p>
-  <b>amount:</b>
-  <%= @order.amount %>
-</p>
+<%= render 'form' %>
 
-<%= link_to 'Back', root_path %>
+<%= link_to 'Cancel', root_path %>

@@ -1,0 +1,12 @@
+<div id="modal-<%= type %>-flash-message" class="modal modal-message hide fade" tabindex="-1" role="dialog">
+  <div class="message clearfix">
+    <% if type == :alert %>
+      <h3><i>Es ist ein Fehler aufgetreten.</i></h3>
+    <% end %>
+
+    <h4><i><%= message %></i></h4>
+    <div class="submit-wrapper clearfix">
+      <a href="#" id="modal-error-ok" class="btn btn-submit pull-right" data-dismiss="modal" aria-hidden="true">OK</a>
+    </div>
+  </div>
+</div>
