@@ -35,3 +35,11 @@ set :domain, 'demo1.wantedpixel.com'
 # at https://rvm.io/integration/capistrano/ and set this variable.
 set :rvm_ruby_string, '1.9.3@gigflip-paypal-demo'
 
+
+namespace :deploy do
+  desc "reload the database with seed data"
+  task :seed do
+    run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
+  end
+end
+
