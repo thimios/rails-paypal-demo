@@ -16,3 +16,9 @@ else
   end
   puts "done"
 end
+
+# Create default admin user
+AdminUser.create! do |a|
+  a.email = 'admin@example.com'
+  a.password = a.password_confirmation = 'password'
+end

@@ -1,0 +1,3 @@
+class Ipn < ActiveRecord::Base
+  attr_accessible :address_city, :address_country, :address_country_code, :address_name, :address_state, :address_status, :address_street, :address_zip, :charset, :custom, :first_name, :handling_amount, :invoice, :ipn_track_id, :item_name, :last_name, :mc_fee, :mc_gross, :notify_version, :payer_email, :payer_id, :payer_status, :payment_date, :payment_fee, :payment_gross, :payment_status, :payment_type, :protection_eligibility, :quantity, :receiver_email, :receiver_id, :residence_country, :shipping, :tax, :test_ipn, :transaction_subject, :txn_id, :txn_type, :verify_sign, :mc_currency, :item_number
+end

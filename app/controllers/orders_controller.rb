@@ -60,6 +60,8 @@ class OrdersController < ApplicationController
     # Validate ipn request
     code = Paypal.validate_ipn(params)
 
+    ipn = Ipn.create(params.except(:action, :controller))
+
     # Check response code
     if code == "VERIFIED"
       # Payment status complete?

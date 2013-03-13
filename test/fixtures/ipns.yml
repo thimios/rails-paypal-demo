@@ -1,0 +1,83 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mc_gross: 1.5
+  invoice: 1
+  protection_eligibility: MyString
+  address_status: MyString
+  payer_id: MyString
+  tax: 1.5
+  address_street: MyString
+  payment_date: 2013-03-13 19:26:45
+  payment_status: MyString
+  charset: MyString
+  address_zip: MyString
+  first_name: MyString
+  mc_fee: 1.5
+  address_country_code: MyString
+  address_name: MyString
+  notify_version: MyString
+  custom: MyString
+  payer_status: MyString
+  address_country: MyString
+  address_city: MyString
+  quantity: 1
+  verify_sign: MyString
+  payer_email: MyString
+  txn_id: MyString
+  payment_type: MyString
+  last_name: MyString
+  address_state: MyString
+  receiver_email: MyString
+  payment_fee: 1.5
+  receiver_id: MyString
+  txn_type: MyString
+  item_name: MyString
+  residence_country: MyString
+  test_ipn: false
+  handling_amount: 1.5
+  transaction_subject: MyString
+  payment_gross: 1.5
+  shipping: 1.5
+  ipn_track_id: MyString
+
+two:
+  mc_gross: 1.5
+  invoice: 1
+  protection_eligibility: MyString
+  address_status: MyString
+  payer_id: MyString
+  tax: 1.5
+  address_street: MyString
+  payment_date: 2013-03-13 19:26:45
+  payment_status: MyString
+  charset: MyString
+  address_zip: MyString
+  first_name: MyString
+  mc_fee: 1.5
+  address_country_code: MyString
+  address_name: MyString
+  notify_version: MyString
+  custom: MyString
+  payer_status: MyString
+  address_country: MyString
+  address_city: MyString
+  quantity: 1
+  verify_sign: MyString
+  payer_email: MyString
+  txn_id: MyString
+  payment_type: MyString
+  last_name: MyString
+  address_state: MyString
+  receiver_email: MyString
+  payment_fee: 1.5
+  receiver_id: MyString
+  txn_type: MyString
+  item_name: MyString
+  residence_country: MyString
+  test_ipn: false
+  handling_amount: 1.5
+  transaction_subject: MyString
+  payment_gross: 1.5
+  shipping: 1.5
+  ipn_track_id: MyString
