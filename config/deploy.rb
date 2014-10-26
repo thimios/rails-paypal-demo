@@ -12,11 +12,11 @@ set :user, 'wantedsi'
 
 # a name for your app, [a-z0-9] should be safe, will be used for your gemset,
 # databases, directories, etc.
-set :application, 'paypademo'
+set :application, 'paypaldemo'
 
 # the repo where your code is hosted
 set :scm, :git
-set :repository, 'git@bitbucket.org:thimios/gigflip-paypal-demo.git'
+set :repository, 'git@github.com:thimios/rails-paypal-demo.git'
 
 # optional stuff from here
 
@@ -33,7 +33,7 @@ set :domain, 'demo1.wantedpixel.com'
 # By default, Ruby Enterprise Edition 1.8.7 is used for Uberspace. If you
 # prefer Ruby 1.9 or any other version, please refer to the RVM documentation
 # at https://rvm.io/integration/capistrano/ and set this variable.
-set :rvm_ruby_string, '1.9.3@gigflip-paypal-demo'
+set :rvm_ruby_string, '1.9.3@paypal-demo'
 
 
 namespace :deploy do

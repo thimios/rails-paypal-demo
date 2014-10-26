@@ -22,7 +22,7 @@ production:
   adapter: mysql2
   encoding: utf8
   database: paypaldemo
-  username: wantedsi
-  password: DreutvedilNirmyokoju
+  username: root
+  password:
   pool: 5
   timeout: 5000

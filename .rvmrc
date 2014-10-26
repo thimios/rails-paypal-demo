@@ -1,1 +1,1 @@
-rvm 1.9.3@gigflip-paypal-demo --create
+rvm 2.1@paypal-demo --create
