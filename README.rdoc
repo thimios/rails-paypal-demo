@@ -16,3 +16,13 @@ A simple rails app to play with paypal integration
 
 4. Go to http://localhost:3000/
 
+== Deployment on uberspace.de with https://github.com/yeah/uberspacify
+
+1. Setup config/deploy.rb
+
+2. <tt>bundle exec cap deploy:setup</tt>
+
+3. <tt>bundle exec cap deploy:migrations</tt>
+
+4. <tt>bundle exec cap deploy:{stop|start|restart}</tt>
+
