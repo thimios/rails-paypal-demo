@@ -15,8 +15,8 @@ development:
   paypal:
     credentials:
       username: "seller_1362595784_biz_api2.wantedpixel.com"
-      password: "MA45LU3HYQ6P2JB3"
-      signature: "Ae4lJIbsf6r8MTx6Bv-kfvA7jjkoA6aLN0XG00oyq3LAoBcfkfMgJo3K"
+      password: ""
+      signature: ""
       receiver_email: "seller_1362595784_biz@wantedpixel.com"
     routes:
       endpoint: "https://api-3t.sandbox.paypal.com/nvp"
@@ -30,8 +30,8 @@ production:
   paypal:
     credentials:
       username: "seller_1362595784_biz_api2.wantedpixel.com"
-      password: "MA45LU3HYQ6P2JB3"
-      signature: "Ae4lJIbsf6r8MTx6Bv-kfvA7jjkoA6aLN0XG00oyq3LAoBcfkfMgJo3K"
+      password: ""
+      signature: ""
       receiver_email: "seller_1362595784_biz@wantedpixel.com"
     routes:
       endpoint: "https://api-3t.sandbox.paypal.com/nvp"
